@@ -54,10 +54,34 @@ p {
     transform: translate(-50%, -50%);
 }
 
+/*Line*/
+
+#line {
+    background: #1e2019;
+    width: 1.5px;
+    height: 100px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#display h4 {
+    font-size:15px;
+    letter-spacing: 5px;
+    font-family: 'Mukta Vaani', sans-serif;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 
 /*Promise CSS*/
 
 #promise {
+    margin-top:60px;
     background: #1e2019;
     padding: 50px;
 }
@@ -92,6 +116,10 @@ p {
 #info div h2,
 #info div h3 {
     color: #fff;
+}
+
+#info h3 {
+    font-size:25px;
 }
 
 #info .col-sm-6:nth-child(1),
@@ -130,6 +158,11 @@ p {
         top: 62%;
         font-size: 22px;
     }
+    
+    #info {
+        margin-left:15px;
+        width:413px;
+    }
 
     #info .col-sm-6:nth-child(1),
     #info .col-sm-6:nth-child(2) {
@@ -137,7 +170,7 @@ p {
     }
 
     #slideshow {
-        margin: 0px 0px 20px 0px;
+        margin: 0px 14px 20px 15px;
     }
 
 
