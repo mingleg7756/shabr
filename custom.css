@@ -1,166 +1,143 @@
-*::selection {
-    background: #ecffb0;
+body {
+    background: #e2c044;
 }
 
-html {
-    scroll-behavior: smooth;
+
+html,
+body {
+    width: 100%;
+    height: 100%;
 }
 
-h1,
+h1 {
+    font-family: 'PT Serif', serif;
+}
+
 h2,
-span,
-.navbar-brand {
-    font-family: 'Prata', serif;
-}
-
-p {
-    color: white;
-}
-
-h4,
 h3,
-li,
-p {
-    font-family: 'Open Sans', sans-serif !important;
+h4 {
+    font-family: 'Cormorant', serif;
 }
 
-h2 {
-    font-size: 30px;
-    text-align: center;
+p {
+    font-family: 'Mukta Vaani', sans-serif;
 }
+
+
+/*Display CSS*/
 
 #display {
+    text-align: center;
     width: 100%;
     height: 100%;
 
 }
 
 #display h2 {
-    position: absolute;
-    top: 63%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 25px;
+    font-size: 23px;
 }
 
-#display h1 {
-    text-align: center;
+.company {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 45px;
-
-
 }
+
+
+/*Promise CSS*/
 
 #promise {
-    background-color: #9aa899;
-    text-align: center;
-    color: white;
+    background: #1e2019;
+    padding: 50px;
 }
 
-#promise h3 {
-    font-size: 20px;
-    padding: 30px;
-    margin-bottom: 80px
+#promise h2,
+#promise h4 {
+    color: #fff;
 }
 
-@media(min-width:768px) {}
+/*Comments CSS*/
 
-@media(max-width:768px) {
-
-    #display h1 {
-        font-size: 25px;
-
-    }
-
-    #display h2 {
-        font-size: 15px;
-        top: 60%;
-    }
-
-    #comments h2 {
-        font-size: 25px;
-    }
-
-    #slideshow {
-        margin: 20px !important;
-    }
-
-}
-
-.navbar {
-    transition: background 500ms linear;
-}
-
-
-
-#comments p {
-    text-align: center;
-    padding: 35px;
-}
 
 
 #comments {
-    color: white;
-    background-color: #9aa899;
-    margin-bottom: 40px;
+    margin: 20px 0px 20px 0px;
+    padding: 50px;
+    background: #1e2019;
 }
 
-.row {
-    text-align: center;
-}
-
-.row h2 {
-    font-size: 20px
-}
-
-.row h3 {
-    font-size: 17px;
-}
-
-body,
-html {
-    background-color: #faffd8;
-    padding-top: 50px;
-    width: 100%;
-    height: 100%;
-
-}
-
-.row div {
-    padding: 10px;
-    border: 1px solid #a6b7a5;
-    background-color: #9aa899;
-    color: white;
-}
-
-#slideshow {
-    margin: 50px 80px 50px 80px;
-}
-
-.footer {
-    margin-bottom: 0px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-
-
-h6 {
-    font-family: 'Prata', serif;
-    font-size: 15px;
-}
-
-.jumbotron {
-    text-align: center;
-    background-color: #9aa899;
-}
-
-.jumbotron h1,
-.jumbotron h3,
-.jumbotron h4{
-    font-family: 'Prata', serif !important;
+#comments h2,
+#comments h4,
+#comments p {
     color: #fff;
+}
+
+/*Info CSS*/
+
+#info .container {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #1e2019;
+}
+
+#info div h2,
+#info div h3 {
+    color: #fff;
+}
+
+#info .col-sm-6:nth-child(1),
+#info .col-sm-6:nth-child(2),
+#info .col-sm-6:nth-child(3) {
+    border-right: 1px solid #393e41;
+}
+
+/*Slideshow CSS*/
+#slideshow {
+    text-align: center;
+    margin: 0px 141px 20px;
+}
+
+#slideshow h2 {
+    background:#1e2019;
+    color:white;
+    margin:0px
+}
+
+/*Footer CSS*/
+.footer {
+    text-align: center;
+}
+
+/*Universal CSS*/
+
+@media(max-width:768px) {
+    #display h1 {
+        font-size: 30px;
+    }
+
+    #display h2 {
+        top: 62%;
+        font-size: 22px;
+    }
+
+    #info .col-sm-6:nth-child(1),
+    #info .col-sm-6:nth-child(2) {
+        border-bottom: 1px solid #393e41;
+    }
+
+    #slideshow {
+        margin: 0px 0px 20px 0px;
+    }
+
+
+
+}
+
+@media(max-width:576px) {
+    #info .col-sm-6:nth-child(1),
+    #info .col-sm-6:nth-child(2),
+    #info .col-sm-6:nth-child(3) {
+        border-bottom: 1px solid #393e41;
+    }
 }
