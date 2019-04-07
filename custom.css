@@ -23,6 +23,16 @@ p {
     font-family: 'Mukta Vaani', sans-serif;
 }
 
+/*Some Nav CSS*/
+
+.navbar {
+    transition: background 1s;
+}
+
+.active {
+    color: #95c1c6 !important;
+}
+
 
 /*Display CSS*/
 
@@ -59,8 +69,6 @@ p {
 
 /*Comments CSS*/
 
-
-
 #comments {
     margin: 20px 0px 20px 0px;
     padding: 50px;
@@ -93,18 +101,20 @@ p {
 }
 
 /*Slideshow CSS*/
+
 #slideshow {
     text-align: center;
     margin: 0px 141px 20px;
 }
 
 #slideshow h2 {
-    background:#1e2019;
-    color:white;
-    margin:0px
+    background: #1e2019;
+    color: white;
+    margin: 0px
 }
 
 /*Footer CSS*/
+
 .footer {
     text-align: center;
 }
