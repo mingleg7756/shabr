@@ -1,0 +1,153 @@
+body {
+    background: #e2c044;
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Cormorant', serif;
+}
+
+p {
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+/*Some Nav CSS*/
+
+.navbar {
+    transition: background 1s;
+}
+
+.active {
+    color: #95c1c6 !important;
+}
+
+
+/*Display CSS*/
+
+#display {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+#display h2 {
+    font-size: 23px;
+}
+
+.company {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*Promise CSS*/
+
+#promise {
+    background: #1e2019;
+    padding: 50px;
+}
+
+#promise h2,
+#promise h4 {
+    color: #fff;
+}
+
+/*Comments CSS*/
+
+#comments {
+    margin: 20px 0px 20px 0px;
+    padding: 50px;
+    background: #1e2019;
+}
+
+#comments h2,
+#comments h4,
+#comments p {
+    color: #fff;
+}
+
+/*Info CSS*/
+
+#info .container {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #1e2019;
+}
+
+#info div h2,
+#info div h3 {
+    color: #fff;
+}
+
+#info .col-sm-6:nth-child(1),
+#info .col-sm-6:nth-child(2),
+#info .col-sm-6:nth-child(3) {
+    border-right: 1px solid #393e41;
+}
+
+/*Slideshow CSS*/
+
+#slideshow {
+    text-align: center;
+    margin: 0px 141px 20px;
+}
+
+#slideshow h2 {
+    background: #1e2019;
+    color: white;
+    margin: 0px
+}
+
+/*Footer CSS*/
+
+.footer {
+    text-align: center;
+}
+
+/*Universal CSS*/
+
+@media(max-width:768px) {
+    #display h1 {
+        font-size: 30px;
+    }
+
+    #display h2 {
+        top: 62%;
+        font-size: 22px;
+    }
+
+    #info .col-sm-6:nth-child(1),
+    #info .col-sm-6:nth-child(2) {
+        border-bottom: 1px solid #393e41;
+    }
+
+    #slideshow {
+        margin: 0px 0px 20px 0px;
+    }
+
+
+
+}
+
+@media(max-width:576px) {
+    #info .col-sm-6:nth-child(1),
+    #info .col-sm-6:nth-child(2),
+    #info .col-sm-6:nth-child(3) {
+        border-bottom: 1px solid #393e41;
+    }
+}
