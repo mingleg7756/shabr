@@ -10,18 +10,16 @@ body {
     scroll-behavior: smooth;
 }
 
-h1 {
-    font-family: 'PT Serif', serif;
+h1,
+h2,
+strong {
+    font-family: 'Playfair Display', serif;
 }
 
-h2,
+p,
 h3,
 h4 {
-    font-family: 'Cormorant', serif;
-}
-
-p {
-    font-family: 'Mukta Vaani', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /*Some Nav CSS*/
@@ -31,8 +29,44 @@ p {
 }
 
 .active {
-    color: #95c1c6 !important;
+    color: brown !important;
 }
+
+/*Loading Screen CSS*/
+
+.loading {
+    z-index: 5;
+    background: #1e2019;
+    width: 100%;
+    height: 100%;
+    animation: disappear 5s;
+}
+
+@keyframes disappear {
+    from {
+        opacity: 1
+    }
+    to {
+        opacity: 0
+    }
+}
+
+.loading h1 {
+    z-index: 5;
+    color: #e2c044;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+
+
+
+
 
 
 /*Display CSS*/
@@ -41,18 +75,27 @@ p {
     text-align: center;
     width: 100%;
     height: 100%;
+    font-weight: 700;
 
 }
 
 #display h2 {
+    color: #1e2019;
     font-size: 23px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
 }
 
 .company {
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#display h1 {
+    color: #1e2019;
 }
 
 /*Line*/
@@ -70,11 +113,11 @@ p {
 #display h4 {
     font-size: 15px;
     letter-spacing: 5px;
-    font-family: 'Mukta Vaani', sans-serif;
     position: absolute;
-    top: 92%;
+    top: 91%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: 700;
 }
 
 
@@ -120,8 +163,14 @@ p {
 }
 
 #info h3 {
-    font-size: 25px;
+    font-size: 18px;
+
 }
+
+.row div {
+    padding: 30px;
+}
+
 
 #info .col-sm-6:nth-child(1),
 #info .col-sm-6:nth-child(2),
@@ -133,13 +182,18 @@ p {
 
 #slideshow {
     text-align: center;
-    margin: 0px 141px 20px;
+    margin: 0px 300px;
 }
 
 #slideshow h2 {
+    padding: 10px;
     background: #1e2019;
     color: white;
     margin: 0px
+}
+
+.jumbotron {
+    margin-top: 20px;
 }
 
 /*Footer CSS*/
@@ -160,10 +214,9 @@ p {
         font-size: 22px;
     }
 
-    #info {
-        margin-left: 15px;
-        width: 413px;
-    }
+    .container {}
+
+
 
     #info .col-sm-6:nth-child(1),
     #info .col-sm-6:nth-child(2) {
@@ -173,7 +226,6 @@ p {
     #slideshow {
         margin: 0px 14px 20px 15px;
     }
-
 
 
 }
