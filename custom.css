@@ -7,10 +7,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
-=======
     scroll-behavior: smooth;
->>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
 }
 
 h1,
@@ -29,6 +26,10 @@ h4 {
 
 .active {
     color: brown !important;
+}
+
+.navbar {
+    transition: 2s background;
 }
 
 /*Loading Screen CSS*/
@@ -66,15 +67,10 @@ h4 {
     transform: translate(-50%, -50%);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 #display h1 {
     color: #1e2019;
 }
 
->>>>>>> b3199ac8b96de02da686880933ce7f8063a025d3
 /*Line*/
 
 #line {
@@ -98,15 +94,11 @@ h4 {
 }
 
 
->>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
 
 /*Promise CSS*/
 
 #promise {
-<<<<<<< HEAD
-=======
     margin-top: 60px;
->>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
     background: #1e2019;
     padding: 50px;
 }
@@ -143,8 +135,6 @@ h4 {
     color: #fff;
 }
 
-<<<<<<< HEAD
-=======
 #info h3 {
     font-size: 18px;
 
@@ -154,11 +144,7 @@ h4 {
     padding: 30px;
 }
 
-<<<<<<< HEAD
->>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
-=======
 
->>>>>>> b3199ac8b96de02da686880933ce7f8063a025d3
 #info .col-sm-6:nth-child(1),
 #info .col-sm-6:nth-child(2),
 #info .col-sm-6:nth-child(3) {
@@ -201,31 +187,17 @@ h4 {
         font-size: 22px;
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    #info {
-        margin-left: 15px;
-        width: 413px;
-    }
-=======
     .container {}
 
 
->>>>>>> b3199ac8b96de02da686880933ce7f8063a025d3
 
->>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
     #info .col-sm-6:nth-child(1),
     #info .col-sm-6:nth-child(2) {
         border-bottom: 1px solid #393e41;
     }
 
     #slideshow {
-<<<<<<< HEAD
-        margin: 0px 0px 20px 0px;
-=======
         margin: 0px 14px 20px 15px;
->>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
     }
 
 
@@ -238,3 +210,4 @@ h4 {
         border-bottom: 1px solid #393e41;
     }
 }
+
