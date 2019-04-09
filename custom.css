@@ -7,6 +7,10 @@ html,
 body {
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
+=======
+    scroll-behavior: smooth;
+>>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
 }
 
 h1 {
@@ -54,10 +58,40 @@ p {
     transform: translate(-50%, -50%);
 }
 
+<<<<<<< HEAD
+=======
+/*Line*/
+
+#line {
+    background: #1e2019;
+    width: 1.5px;
+    height: 100px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#display h4 {
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-family: 'Mukta Vaani', sans-serif;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+>>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
 
 /*Promise CSS*/
 
 #promise {
+<<<<<<< HEAD
+=======
+    margin-top: 60px;
+>>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
     background: #1e2019;
     padding: 50px;
 }
@@ -94,6 +128,13 @@ p {
     color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+#info h3 {
+    font-size: 25px;
+}
+
+>>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
 #info .col-sm-6:nth-child(1),
 #info .col-sm-6:nth-child(2),
 #info .col-sm-6:nth-child(3) {
@@ -131,13 +172,25 @@ p {
         font-size: 22px;
     }
 
+<<<<<<< HEAD
+=======
+    #info {
+        margin-left: 15px;
+        width: 413px;
+    }
+
+>>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
     #info .col-sm-6:nth-child(1),
     #info .col-sm-6:nth-child(2) {
         border-bottom: 1px solid #393e41;
     }
 
     #slideshow {
+<<<<<<< HEAD
         margin: 0px 0px 20px 0px;
+=======
+        margin: 0px 14px 20px 15px;
+>>>>>>> 49e64500bb80e214f1dcfadd031241f443ab3798
     }
 
 
